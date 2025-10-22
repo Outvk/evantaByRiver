@@ -1,5 +1,5 @@
-/* Modern Navigation Bar */
-.nav-container {
+/* Floating Elements Container */
+.floating-elements {
   position: fixed;
   top: 0;
   left: 0;
@@ -9,13 +9,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: all 0.3s ease;
-  backdrop-filter: blur(0px);
-  background: rgba(5, 6, 15, 0);
-  margin-bottom: 100px;
-  animation: navShow 1s ease-out forwards;
-  transform: translateY(-100%);
-  opacity: 0;
+  pointer-events: none;
+}
+
+.floating-elements > * {
+  pointer-events: auto;
 }
 
 @keyframes navShow {

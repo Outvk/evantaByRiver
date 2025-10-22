@@ -104,8 +104,8 @@ const Hero = () => {
 
         <div className="hero">
           <div className="heroT">
-            <h2 style={{ bottom: "122px" }}>Evant</h2>
-            <h2 style={{ bottom: "122px" }}>Eclipx</h2>
+            <h2 style={{ bottom: "140px" }}>Evant</h2>
+            <h2 style={{ bottom: "125px" }}>Eclipx</h2>
           </div>
         </div>
 

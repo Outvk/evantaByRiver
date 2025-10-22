@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 const Navbar = ({ isScrolled }) => {
   return (
-    <nav className={`nav-container ${isScrolled ? "scrolled" : ""}`}>
+    <div className="floating-elements">
       <Link to="/" className="nav-logo">
         <div className="pyramid-loader">
           <div className="wrapper">
@@ -22,7 +22,7 @@ const Navbar = ({ isScrolled }) => {
           Login
         </Link>
       </div>
-    </nav>
+    </div>
   );
 };
 

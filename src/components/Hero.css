@@ -422,7 +422,7 @@ p {
   margin: auto;
   width: fit-content;
 
-  font-size: 7em;
+  font-size: clamp(2.5rem, 12vw, 7em);
   font-weight: 600;
   color: #9dc3f7;
   background: radial-gradient(
@@ -1219,6 +1219,36 @@ button {
 
   .project-title {
     font-size: 1.8rem;
+  }
+
+  .hero {
+    height: auto;
+    max-height: none;
+    padding: 0 1rem;
+  }
+
+  .heroT {
+    padding-top: 1em;
+    height: auto;
+    translate: 0 -1em;
+  }
+
+  .heroT > h2:first-child {
+    bottom: -5px !important;
+  }
+
+  .heroT > h2:last-child {
+    bottom: 85px !important;
+  }
+
+  .heroP {
+    top: 18em;
+    padding: 0 1rem;
+    font-size: 1em;
+  }
+
+  .heroSubP {
+    top: 11em;
   }
 }
 
