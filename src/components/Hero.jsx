@@ -301,11 +301,11 @@ const Hero = () => {
             Resource by{" "}
             <a
               target="_blank"
-              href="https://www.osmo.supply/"
+              href="https://river-portofilo.framer.website/"
               className="osmo-credits__p-a"
               rel="noopener noreferrer"
-            >
-              Out
+              >
+                OutRiver
             </a>
           </p>
         </div>
