@@ -1357,7 +1357,8 @@ button {
 }
 
 .tab-content-item {
-  margin-right: 100px;  display: none;
+  margin-right: 100px;
+  display: none;
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.3s ease, transform 0.3s ease;
@@ -1461,10 +1462,10 @@ button {
   font-size: 4em;
   font-weight: 500;
   line-height: 1;
-  color: #A7C8F4;
+  color: #a7c8f4;
   text-shadow: none;
   background: none;
-  -webkit-text-fill-color: #A7C8F4;
+  -webkit-text-fill-color: #a7c8f4;
   animation: shine 8s linear infinite;
 }
 

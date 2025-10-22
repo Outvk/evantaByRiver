@@ -304,8 +304,8 @@ const Hero = () => {
               href="https://river-portofilo.framer.website/"
               className="osmo-credits__p-a"
               rel="noopener noreferrer"
-              >
-                OutRiver
+            >
+              OutRiver
             </a>
           </p>
         </div>

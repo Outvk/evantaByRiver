@@ -27,4 +27,3 @@ const Navbar = ({ isScrolled }) => {
 };
 
 export default Navbar;
- 
